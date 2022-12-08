@@ -142,11 +142,11 @@ order by nome_curso asc
 
 ## 1ª Questão
 ### Defina: SQL.
-#### SQL é o acrônimo para Structured Query Language.É uma linguagem pra acesso e manipulação de dados,principalmente para banco de dados relacionais.
+#### SQL (Structured Query Language) é utilizada para executar um comando em Bancos de Dados relacionais, isto é, baseado em tabelas.
 
 ## 2ª Questão
 ### Faça um relacionamento cronológico sobre SQL.
-#### A linguagem SQL surgiu em meados da década de 70, sendo resultado de um estudo de E. F. Codd, membro do laboratório de pesquisa da IBM em San Jose, Califórnia. Este estudo tinha foco em desenvolver uma linguagem que adapta-se ao modelo relacional. O primeiro sistema de BD baseado em SQL tornou-se comercial no final dos anos 70 juntamente com outros sistema de BD’s relacionais. O sucesso da linguagem SQL foi tão grande que obrigou o ANSI (American National Standarts Institute), a padronizar as implementações da linguagem, assim, nos dias de hoje, a maior parte de BD’s seguem criteriosamente esta padronização, podendo ter algumas variações, mais mesmo assim não afetando na padronização global da linguagem tornando assim a portabilidade mais fácil, se seguida de forma adequada pelo DBA. Em 1982, foi lançada a primeira versão padronizada da linguagem SQL, que vieram ganhando melhorias de acordo com sua evolução e tornando-se assim, a mais poderosa ferramenta para definição e manipulação de BD’s e hoje utilizada em grande parte dos BD existente, tais como MySQL, SQLServer, Firebird dentre outros.
+#### SQL significa Linguagem de Consulta Estruturada. SQL é uma linguagem de programação padrão projetada para armazenar, recuperar, gerenciar ou manipular dados em um sistema de gerenciamento de banco de dados relacional (DBMS). SQL é devido a um padrão ISO em 1987. SQL é a linguagem de banco de dados mais amplamente implementada e suportada por sistemas de banco de dados relacionais populares, como MySQL, SQL Server e Oracle. No entanto, alguns recursos do padrão SQL são implementados de maneira diferente em diferentes sistemas de banco de dados. O SQL foi originalmente desenvolvido na IBM no início dos anos 1970 como SEQUEL (Structured English Query Language) e mais tarde foi substituído por SQL (pronuncia-se SQL).
 
 ## 3ª Questão
 ### Liste as principais características de SQL.
