@@ -64,16 +64,15 @@ from tb_aluno
 Escreva um comando SQL para listar o total de alunos matriculados em cada curso.
 
 ```sql
-select tb_curso.nome_curso,
-codigo_curso + codigo_aluno as numero_alunos
-from tb_curso
-inner join tb_aluno
-on tb_aluno.codigo_aluno = tb_curso.codigo_curso
+alter table tb_matricula
+add codigo_matricula serial primary key 
+
+select count(codigo_matricula) as totalalunos from tb_matricula
 ```
 ## Resultado 
 
 
-![q5sql](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
+![q5sql](https://user-images.githubusercontent.com/120126255/206542518-ac1a02ef-1043-436d-a46a-67165022b018.png)
 
 ## 6ª Questão
 Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
@@ -129,14 +128,12 @@ from tb_curo order by nome_curso asc
 Crie o enunciado de uma consulta SQL que utiliza "junção" (com resposta).
 
 ```sql
-select ano_nasc,tb_curso.nome_curso,tb_aluno.nome_aluno
-from tb_aluno
-inner join tb_curso
-on tb_aluno.cod_aluno = tb_curso.cod_curso
-order by nome_curso asc 
+select tb_aluno.nome_aluno, tb_curso.nome_curso from tb_aluno 
+inner join tb_matricula on tb_aluno.codigo_aluno = tb_matricula.codigo_aluno
+inner join tb_curso on tb_curso.codigo_curso = 1
 ```
 ## Resultado 
-![q10sql](https://user-images.githubusercontent.com/104003510/206247087-8d9edbac-8794-418b-b4c2-034bb61a5c69.jpg)
+![q10sql](https://user-images.githubusercontent.com/120126255/206542636-fc7ac280-0417-4446-a662-987e6ef522e2.png)
 
 # Resolução da Prova Teórica
 
