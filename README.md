@@ -15,9 +15,9 @@ values ('4', '4')
 ```
 ## Resultado 
 
-![q1 2Db](https://user-images.githubusercontent.com/114403979/206186429-af1a1a67-b402-4d8d-9c29-eb38b7826505.png)
+![q1sql](https://user-images.githubusercontent.com/114403979/206186429-af1a1a67-b402-4d8d-9c29-eb38b7826505.png)
 <br/>
-![q1DB](https://user-images.githubusercontent.com/114403979/206186442-0047b5c9-f95d-4b70-99e5-2033b8503a11.png)
+![q1sql](https://user-images.githubusercontent.com/114403979/206186442-0047b5c9-f95d-4b70-99e5-2033b8503a11.png)
 
 
 ## 2ª Questão
@@ -33,7 +33,7 @@ on tb_curso.codigo_curso = tb_matricula.codigo_curso
 ```
 ## Resultado 
 
-![q2DB](https://user-images.githubusercontent.com/114403979/206186499-aa04cc46-34ac-4e64-b51f-1843522f754f.png)
+![q2sql](https://user-images.githubusercontent.com/114403979/206186499-aa04cc46-34ac-4e64-b51f-1843522f754f.png)
 
 
 ## 3ª Questão
@@ -45,7 +45,7 @@ from tb_aluno where 2022 - ano_nasc >= 18
 ```
 ## Resultado 
 
-![q3DB](https://user-images.githubusercontent.com/114403979/206186533-a190cc9f-05e8-4611-a4ea-f29c2c64f3d8.png)
+![q3sql](https://user-images.githubusercontent.com/114403979/206186533-a190cc9f-05e8-4611-a4ea-f29c2c64f3d8.png)
 
 
 ## 4ª Questão
@@ -57,7 +57,7 @@ from tb_aluno
 ```
 ## Resultado 
 
-![q4DB](https://user-images.githubusercontent.com/114403979/206186568-aa8d2e99-5bd3-437c-a59c-e5c1cbec1640.png)
+![q4sql](https://user-images.githubusercontent.com/114403979/206186568-aa8d2e99-5bd3-437c-a59c-e5c1cbec1640.png)
 
 
 ## 5ª Questão
@@ -73,7 +73,7 @@ on tb_aluno.codigo_aluno = tb_curso.codigo_curso
 ## Resultado 
 
 
-![q5DB](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
+![q5sql](https://user-images.githubusercontent.com/114403979/206186607-70f17862-97dd-4c9e-8318-ca044ccb31a5.png)
 
 ## 6ª Questão
 Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que 18 anos.
@@ -84,7 +84,7 @@ from tb_aluno where 2022 - ano_nasc >= 18
 ```
 ## Resultado 
 
-![02](https://user-images.githubusercontent.com/105735037/206178292-be49f604-890b-494c-9a4b-07f093e433c1.PNG)
+![q6sql](https://user-images.githubusercontent.com/105735037/206178292-be49f604-890b-494c-9a4b-07f093e433c1.PNG)
 
 ## 7ª Questão
 Faça um comando SQL que retorne o nome de todas as mulheres. 
@@ -95,7 +95,7 @@ from tb_aluno where sexo = 'F'
 ```
 ## Resultado 
 
-![q7DB](https://user-images.githubusercontent.com/114403979/206186706-6570fca1-5caa-41d0-8a2f-c71fc50761dd.png)
+![q7sql](https://user-images.githubusercontent.com/114403979/206186706-6570fca1-5caa-41d0-8a2f-c71fc50761dd.png)
 
 
 ## 8ª Questão
@@ -111,7 +111,7 @@ and tb_aluno.sexo = 'F'
 ```
 ## Resultado 
 
-![q8DB](https://user-images.githubusercontent.com/114403979/206186751-fd47532f-a7c7-4ba0-ac4a-5aa069914f5b.png)
+![q8sql](https://user-images.githubusercontent.com/114403979/206186751-fd47532f-a7c7-4ba0-ac4a-5aa069914f5b.png)
 
 
 ## 9ª Questão
@@ -123,7 +123,7 @@ from tb_curo order by nome_curso asc
 ```
 ## Resultado 
 
-![q9DB](https://user-images.githubusercontent.com/114403979/206186768-c63918de-50f1-41da-a721-61b891b4f73e.png)
+![q9sql](https://user-images.githubusercontent.com/114403979/206186768-c63918de-50f1-41da-a721-61b891b4f73e.png)
 
 ## 10ª Questão
 Crie o enunciado de uma consulta SQL que utiliza "junção" (com resposta).
@@ -136,7 +136,7 @@ on tb_aluno.cod_aluno = tb_curso.cod_curso
 order by nome_curso asc 
 ```
 ## Resultado 
-![trabadoDD](https://user-images.githubusercontent.com/104003510/206247087-8d9edbac-8794-418b-b4c2-034bb61a5c69.jpg)
+![q10sql](https://user-images.githubusercontent.com/104003510/206247087-8d9edbac-8794-418b-b4c2-034bb61a5c69.jpg)
 
 # Resolução da Prova Teórica
 
